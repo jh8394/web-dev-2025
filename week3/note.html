@@ -1,0 +1,63 @@
+css 할 수 있는 방법은 여러가지 있는데, internal로 할 수도 있고 external로 할 수도 있다.
+internal로 할 경우에는 style태그를 사용하면 된다 (위의 예시에서는 style.css를 사용했음)
+external로 할 경우에는 link태그를 사용하면 된다 (i.e. <link href="style.css" rel="stylesheet">)
+
+** External CSS styling 하는 법**
+
+우리가 styling을 할 때에는 select element를 사용한다 (예: .000 {} 이런식으로)
+
+<b> 여러 css property들이 있음</b>
+
+(예: color, font-size, font-family, background-color, text-align, margin, padding, border, width, height, display, position, float, z-index, opacity, transition, transform, box-shadow, text-shadow, etc.)
+
+1. opacity
+예를 들어서 opacity property를 사용하면 투명도를 조절할 수 있다. (0.0 ~ 1.0 사이의 값을 가질 수 있음)
+
+2. font-family
+font-family property를 사용하면 글꼴을 바꿀 수 있다. (예: font-family: 'Times New Roman', Times, serif;) <p> font-family: "Trebuchet MS", sans-serif;
+-> 여기서 뒤에 sans-serif는 글꼴이 없을 때에는 sans-serif로 보여주겠다는 뜻이다.
+
+<b><span class="highlight">...</span></b>
+
+span은 inline element이다. 따라서 span을 사용하면 특정한 부분에만 css를 적용할 수 있다.
+div 와의 차이점은 div는 block element이기 때문에 한 줄을 다 차지한다. 반면에 span은 inline element이기 때문에 한 줄을 다 차지하지 않는다. <p></p>
+
+<b>Don't repeat yourself. (DRY)</b>
+
+------
+html sheet에서 "*"를 쓰는건 everything. 즉 모든 것에 적용된다는 뜻이다. 
+------
+inline이랑 external style이랑 같이 쓰는 경우, inline이 무조건 우선한다.
+
+inline > internal > external 순서로 우선순위가 있다.
+
+같은 맥락에서 id > class > element 순서로 우선순위가 있다.
+------
+child 개념 이해하기: div > div > div 이런식으로 쓰면, div가 3개 중에 가장 상위에 있는 div를 의미한다.
+class에서 child를 쓰고 싶으면 .div > .div > .div 이런식으로 쓰면 된다.
+------
+Difference between margin and paddings:
+
+margin은 border 밖에 있는 공간을 의미한다. padding은 border 안에 있는 공간을 의미한다.
+padding은 element에 포함된다. margin은 element에 포함되지 않는다.
+
+즉, 박스를 만든다고 가정한다면, padding은 박스 내 여백을 의미하고, margin은 박스 바깥의 여백을 의미한다.
+
+border는 박스 가장자리의 라인을 의미한다. 
+
+negative margin을 사용ㅎ면 박스를 겹칠 수 있다. 주로 디자인의 관점에서 사용하게 됨. 
+------
+margin-bottom: 40px 80px;
+이 경우, 왼쪽은 상하, 오른쪽은 좌우 여백 크기를 의미한다.
+------
+padding 조정하는 것 때문에 박스 크기가 달라질 수 있으므로, 이걸 방지하기 위해서는 
+"box-sizing=content-box (this is a default box)"대신
+"box-sizing:border-box"를 세팅해놓고 사용하면 된다. 그럼 padding 조정한다고 해도 박스 크기에 영향을 주지 않음.
+------
+Flexbox: you can space things anywhere you want.
+이거는 display property에 flex를 넣어주면 된다.
+------
+width: 100vw 
+
+여기서 vw는 entire width of the screen에 해당. 
+

@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 17%;
+  background-color: #aed6f1;
+  border: 1px solid #3e4042;
+  margin: 1%;
+}
+
+.heading {
+    font-size: 18px;
+    font-family: 'garamond', serif;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-family: 'brush script mt', sans-serif;
+}
+
+.paragraph {
+    font-size: 10px;
+    font-family: 'courier new', monospace;
+}

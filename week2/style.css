@@ -1,0 +1,104 @@
+.wrapper {
+    width: 1000px; /
+    max-width: 1000px; /
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); 
+    align-items: center; 
+    overflow: auto; /* 내용이 넘치면 스크롤바를 추가 */
+}
+
+.profile-band {
+    background-color: #434243;
+    padding: 30px;
+}
+
+.profile-font {
+    font-family: "Montserrat", sans-serif;
+    color: #f7f7f7 ;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.content {
+    overflow: hidden; 
+    margin-right: 10px;
+}
+
+.chapter {
+    background-color: #dddce2;
+    padding: 15px;
+}
+.chapter-font {
+    font-family: "Montserrat", sans-serif;
+    color: #434243;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.custom-small {
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    height: 100vh;             /* Makes the body take up the full viewport height */
+    margin: 0;                 /* Removes default margins */
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    float: right; 
+    margin-left: 20px; 
+}
+
+.align-left {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.font {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #2c2c2d;
+    font-size: 16px;
+    margin-left: 10px
+    ;
+}
+
+.label {
+    padding-left: 10px; 
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: border-left 0.1s ease-in-out, height 0.1s ease-in-out; 
+}
+
+.label:hover {
+    border-left: 6px solid #a296a8; 
+    height: 16px;
+    padding-left: 10px; 
+}
+
+a {
+    color: #434243; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #bbb2bf; 
+}
+
+p {
+    line-height: 1.2; 
+}
+
+.ending-line {
+    border-bottom: 5px solid #434243; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}

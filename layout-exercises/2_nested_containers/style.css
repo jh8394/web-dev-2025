@@ -1,0 +1,28 @@
+.container1 {
+  width: 100%;
+  border: 1px solid #000;
+  margin: 0 auto;
+  background-color: #f2d7d5;
+  padding: 10px;
+}
+
+.container2 {
+  width: 50%;
+  border: 1px solid #000;
+  background-color: #e6b0aa;
+  padding: 10px;
+}
+
+.container3 {
+  width: 25%;
+  border: 1px solid #000;
+  background-color: #d98880;
+  padding: 10px;
+}
+
+.container4 {
+  width: 12.5%;
+  border: 1px solid #000;
+  background-color: #cd6155;
+  padding: 10px;
+}
