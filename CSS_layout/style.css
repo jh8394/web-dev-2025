@@ -1,0 +1,340 @@
+/* Add Question 1 CSS below: */
+.color-word{
+    color:red;
+  }
+
+  /* Add Question 2 CSS below: */
+  .rainbow{
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  /* Question 3/4 */
+  .highlight-me{
+    color:black;
+    font-size:16px;
+    background-color:yellow;
+  }
+
+  /* Question 5 */
+  .side-by-side{
+    width:120px;
+    height:70px;
+    background-color:black;
+    margin:10px;
+    display:inline-block;
+  }
+  
+  /* Question 6 */
+  .gone{
+    background-color:lightgrey;
+    color:grey;
+    font-size:30px;
+    width:100px;
+    display: none;
+  }
+  
+  /* Question 7 */
+  .increase-orange{
+    background-color:orange;
+    display:inline-block;
+    padding: 10px;
+  }
+  
+  /* Question 8 */
+  .separate-me{
+    background-color:green;
+    width:200px;
+    height:20px;
+    margin: 10px;
+  }
+  
+  /* Question 9 */
+  .user-friendly{
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+  
+  
+  /* Question 10 */
+  .static{
+    background-color:#00ffff;
+    text-align:center;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-me{
+    display:inline-block;
+  }
+  
+  /* Question 11 */
+  .left-upward{
+    width:200px;
+    height:60px;
+    background-color:green;
+    position: relative;
+    left: -50px;
+    top: -50px;
+  }
+  
+  /* Question 12 */
+  .fixed-btn{
+    background-color:pink;
+    width:130px;
+    padding:20px;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Question 13 */
+  .position-20-40{
+    background-color:#bb00ff;
+    width:200px;
+    height:100px;
+    top: 20px;
+    left: 40px;
+  }
+  
+  /* Question 14 */
+  .dont-move{
+    width:200px;
+    height:50px;
+    background-color:grey;
+
+  }
+  .move-me{
+    width:220px;
+    height:60px;
+    background-color:blue;
+    position: relative;
+    top: -30px;
+    left: -30px;
+
+  }
+  
+  /* Question 15 */
+  
+  
+  /* Question 16 */
+  .larger-div{
+    background-color:red;
+    width:260px;
+    height:260px;
+  }
+  .smaller-div{
+    background-color:purple;
+    width:200px;
+    height:200px;
+    bottom: 230px;
+    left: 30px;
+    position: relative;
+  }
+  
+  /* Question 17 */
+  .parent-div{
+    width:300px;
+    height:300px;
+    position:relative;
+    background-color:lightgrey;
+  }
+  .child-div{
+    background-color:#4287f5;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:125px;
+    left:125px;    
+  }
+
+ /* Question 14 */
+
+  .vertical-stripe {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Question 20 */
+  .replicate-me{
+    background-color:lightgrey;
+    width:400px;
+    height:300px;
+    position:relative;
+  }
+  .replicate-me div{
+    width:120px;
+    height:120px;
+    position:absolute;
+  }
+  .red-square {
+    background-color: #f0002c;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  }
+  
+  .pink-square {
+    background-color: #e0abd8;
+    top: 90px;
+    left: 60px;
+    z-index: 2;
+  }
+  
+  .yellow-square {
+    background-color: #f0c800;
+    top: 120px;
+    left: 120px;
+    z-index: 3;
+  }
+  
+  .green-square {
+    background-color: #32a852;
+    top: 50px;
+    left: 150px;
+    z-index: 4;
+  }
+  
+  .blue-square {
+    background-color: #0486d6;
+    top: 90px;
+    left: 170px;
+    z-index: 5;
+  }
+  
+  /* Default Styles */
+  
+  p{
+    color:grey;
+    font-size:14px;
+    max-width:460px;
+  }
+  
+  body{
+    padding-bottom:200px;
+  }
+  
+  .img-ref{
+    width:400px;
+  }
+  
+  h3{
+    text-decoration:underline;
+  }
+
+.empire-state-building{
+    width:1000px;
+    height:1000px;
+    background-color: #ebf5fb;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+.antenna{
+    width:200px;
+    height:80px;
+    background-color: #e5e8e8;
+    position: absolute;
+    bottom: 20px; 
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.building1{
+    width: 150px;
+    height: 350px;
+    background-color: #e5e8e8;
+    position: absolute;
+    bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+.building2{
+    width: 100px;
+    height: 150px;
+    background-color: #e5e8e8;
+    position: absolute;
+    bottom: 450px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+.building3{
+    width: 50px;
+    height: 100px;
+    background-color: #0e6251;
+    position: absolute;
+    bottom: 600px;
+    border: 1px solid black;
+  }
+
+.building4 {
+    width: 30px;
+    height: 50px;
+    background-color: #0e6251;
+    position: absolute;
+    bottom: 700px;
+    border: 1px solid black;
+} 
+
+.top {
+    width: 10px;
+    height: 100px;
+    bottom: 750px;
+    position: absolute;
+    background-color: #515a5a;
+    border: 1px solid black;
+}
+
+.window1 {
+    width: 10px;
+    height: 10px;
+    background-color: #34495e;
+    border: 1px solid darkgray;
+}
+
+.window2 {
+    width: 10px;
+    height: 10px;
+    background-color: #34495e;
+    border: 1px solid darkgray;
+}
+
+.window3 {
+    width: 5px;
+    height: 10px;
+    background-color: #34495e;
+    border: 1px solid darkgray;
+}
